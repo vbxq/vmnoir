@@ -59,4 +59,5 @@ vmnoir.exe <PID from terminal 1>
 
 ## License
 
-2026, [vbxq](https://github.com/vbxq)
+BSD-3-Clause license, 2026 - vbxq  
+Read [License](LICENSE) for more details.
