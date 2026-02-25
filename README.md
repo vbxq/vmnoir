@@ -4,12 +4,12 @@
   <img src="banner.png" alt="project banner"/>
 </p>
 
-This is my small proof-of-concept EDR (Endpoint Detection and Response) tool for Windows x64  
+This is my small proof-of-concept EDR (Endpoint Detection and Response) for Windows x64  
 
 ## DISCLAIMER!
 
 This project is just getting started and for now it's only a userland process scanner focused on syscall detection and memory integrity checks. But that said, it's meant to grow over time and.. I think it's a decent foundation to build on.
-VMNoir is not a a proper EDR for now, because it would involves kernel drivers, continuous telemetry, active response, and all of that stuff. It's a learning/personal learning project, and just exists as a way to explore working from the defender's perspective.
+VMNoir is not a a proper EDR for now. It's a learning/personal learning project, and just exists as a way to explore working from the defender's perspective lol
 
 VMNoir catches direct syscall for now. Indirect syscalls, call stack spoofing and other fancy stuff aren't handled yet, and the false positive filtering is heuristic-based, so it's not perfect.
 
